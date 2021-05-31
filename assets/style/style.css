@@ -29,6 +29,10 @@ header {
     justify-content:space-between;
     align-items: center;
     height:50px;
+    position:fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 
 }
 header ul, header li {
@@ -80,4 +84,14 @@ header .rightside a {
 header .menu-icon div{
     height:2px;
     background-color: var(--header-color);
+}
+
+
+/* MAIN */
+
+main {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
 }
